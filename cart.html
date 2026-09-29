@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gadget-store</title>
+        <link rel ="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <header class="main-head">
+        <div class="logo">Gadget store</div>
+            <nav class="nav-me">
+                <a href="mian.html">Home</a>
+                <a href="cart.html">Cart</a>
+                <a href="#products">Products</a>
+            </nav>
+        </header>
+
+    <main class="cart-page">
+        <section aria-labelledby="cart-title">
+            <h1 id="cart-title">Shopping Cart</h1>
+            <div class="cart-items">
+                <section class="cart-item">
+                        <div class="cart-product">
+                            <img src="https://shorturl.at/AFM68" alt="Asus Pro Gaming laptop">
+                            <div>
+                                <h2>Asus Pro Gaming</h2>
+                                <p class="cart-price">SEK 79,999</p>
+                                <label for="asus-quantity">Quantity</label>
+                                <input id="asus-quantity" type="number" value="1" min="1" readonly>
+                            </div>
+                        </div>
+                        <button class="remove-button" type="button">Remove</button>
+                </section>
+
+                <section class="cart-item">
+                        <div class="cart-product">
+                            <img src="https://shorturl.at/6leNF" alt="Nothing 3a phone">
+                            <div>
+                                <h2>Nothing 3a</h2>
+                                <p class="cart-price">SEK 9,999</p>
+                                <label for="nothing-quantity">Quantity</label>
+                                <input id="nothing-quantity" type="number" value="1" min="1" readonly>
+                            </div>
+                        </div>
+                        <button class="remove-button" type="button">Remove</button>
+                </section>
+                </div>
+
+                <p class="cart-total"><strong>Total: SEK 89,998</strong></p>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <p>Email: nosupport@gadgetstore.com</p>
+                    <p>Phone: No Phone</p>
+                </div>
+
+                <div class="copyright">@ no rights reserved</div>
+            </div>
+        </footer>
+
+    </body>
+</html>
